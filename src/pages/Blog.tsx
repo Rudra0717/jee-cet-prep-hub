@@ -16,6 +16,14 @@ import {
   Star
 } from 'lucide-react';
 
+// Import blog images
+import blogJeeStrategy from '@/assets/blog-jee-strategy.jpg';
+import blogPhysicsFormulas from '@/assets/blog-physics-formulas.jpg';
+import blogChemistry from '@/assets/blog-chemistry.jpg';
+import blogMathematics from '@/assets/blog-mathematics.jpg';
+import blogTimeManagement from '@/assets/blog-time-management.jpg';
+import blogJeeComparison from '@/assets/blog-jee-comparison.jpg';
+
 const Blog = () => {
   const articles = [
     {
@@ -27,7 +35,7 @@ const Blog = () => {
       readTime: '8 min read',
       views: 1250,
       date: '2024-01-15',
-      image: '/api/placeholder/400/250',
+      image: blogJeeStrategy,
       featured: true,
       tags: ['JEE Main', 'Study Strategy', 'Preparation']
     },
@@ -40,7 +48,7 @@ const Blog = () => {
       readTime: '5 min read',
       views: 890,
       date: '2024-01-12',
-      image: '/api/placeholder/400/250',
+      image: blogPhysicsFormulas,
       featured: false,
       tags: ['Physics', 'Formulas', 'JEE']
     },
@@ -53,7 +61,7 @@ const Blog = () => {
       readTime: '6 min read',
       views: 756,
       date: '2024-01-10',
-      image: '/api/placeholder/400/250',
+      image: blogChemistry,
       featured: false,
       tags: ['Chemistry', 'Organic Chemistry', 'Mistakes']
     },
@@ -66,7 +74,7 @@ const Blog = () => {
       readTime: '10 min read',
       views: 634,
       date: '2024-01-08',
-      image: '/api/placeholder/400/250',
+      image: blogMathematics,
       featured: false,
       tags: ['Mathematics', 'Calculus', 'Integration']
     },
@@ -79,7 +87,7 @@ const Blog = () => {
       readTime: '7 min read',
       views: 1120,
       date: '2024-01-05',
-      image: '/api/placeholder/400/250',
+      image: blogTimeManagement,
       featured: false,
       tags: ['Time Management', 'Study Tips', 'JEE']
     },
@@ -92,7 +100,7 @@ const Blog = () => {
       readTime: '9 min read',
       views: 1450,
       date: '2024-01-03',
-      image: '/api/placeholder/400/250',
+      image: blogJeeComparison,
       featured: false,
       tags: ['JEE Advanced', 'JEE Main', 'Comparison']
     }
@@ -209,7 +217,6 @@ const Blog = () => {
                   <div className="flex items-center justify-between">
                     <div className="flex items-center space-x-2">
                       <Avatar className="w-6 h-6">
-                        <AvatarImage src="/api/placeholder/24/24" />
                         <AvatarFallback>{article.author[0]}</AvatarFallback>
                       </Avatar>
                       <span className="text-sm text-gray-500">{article.author}</span>
