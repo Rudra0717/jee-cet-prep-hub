@@ -76,6 +76,54 @@ const QuestionBank = () => {
       attempts: 750,
       avgScore: 85,
       topics: ['Mechanics', 'Thermodynamics']
+    },
+    {
+      id: 5,
+      title: 'JEE Main 2022 Chemistry Full Set',
+      subject: 'chemistry',
+      year: '2022',
+      exam: 'JEE Main',
+      questions: 100,
+      difficulty: 'medium',
+      attempts: 1800,
+      avgScore: 74,
+      topics: ['Inorganic Chemistry', 'Chemical Bonding', 'Periodic Table']
+    },
+    {
+      id: 6,
+      title: 'JEE Advanced 2023 Mathematics',
+      subject: 'mathematics',
+      year: '2023',
+      exam: 'JEE Advanced',
+      questions: 60,
+      difficulty: 'hard',
+      attempts: 650,
+      avgScore: 68,
+      topics: ['Coordinate Geometry', 'Calculus', 'Vectors']
+    },
+    {
+      id: 7,
+      title: 'CET 2022 Physics Complete',
+      subject: 'physics',
+      year: '2022',
+      exam: 'CET',
+      questions: 120,
+      difficulty: 'easy',
+      attempts: 1950,
+      avgScore: 82,
+      topics: ['Wave Motion', 'Electrostatics', 'Modern Physics']
+    },
+    {
+      id: 8,
+      title: 'BITSAT 2022 Chemistry Set',
+      subject: 'chemistry',
+      year: '2022',
+      exam: 'BITSAT',
+      questions: 35,
+      difficulty: 'medium',
+      attempts: 980,
+      avgScore: 76,
+      topics: ['Organic Reactions', 'Chemical Kinetics']
     }
   ];
 

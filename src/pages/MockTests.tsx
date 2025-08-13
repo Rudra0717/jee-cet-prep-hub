@@ -159,6 +159,66 @@ const MockTests = () => {
       isRecommended: false,
       topics: ['Chemistry'],
       lastAttempted: '2024-01-10'
+    },
+    {
+      id: 7,
+      title: 'JEE Main Mathematics Special',
+      examType: 'jee-main',
+      difficulty: 'medium',
+      duration: '1.5 hours',
+      questions: 30,
+      attempts: 1200,
+      avgScore: 73,
+      bestScore: 91,
+      isCompleted: false,
+      isRecommended: true,
+      topics: ['Mathematics'],
+      lastAttempted: null
+    },
+    {
+      id: 8,
+      title: 'CET Physics + Chemistry Test',
+      examType: 'cet',
+      difficulty: 'easy',
+      duration: '2 hours',
+      questions: 60,
+      attempts: 1600,
+      avgScore: 79,
+      bestScore: 94,
+      isCompleted: false,
+      isRecommended: false,
+      topics: ['Physics', 'Chemistry'],
+      lastAttempted: null
+    },
+    {
+      id: 9,
+      title: 'BITSAT Logical Reasoning Test',
+      examType: 'bitsat',
+      difficulty: 'easy',
+      duration: '45 minutes',
+      questions: 25,
+      attempts: 890,
+      avgScore: 81,
+      bestScore: 96,
+      isCompleted: true,
+      isRecommended: false,
+      topics: ['Logical Reasoning'],
+      lastAttempted: '2024-01-08'
+    },
+    {
+      id: 10,
+      title: 'JEE Advanced Full Mock Test 2',
+      examType: 'jee-advanced',
+      difficulty: 'hard',
+      duration: '3 hours',
+      questions: 54,
+      attempts: 720,
+      avgScore: 62,
+      bestScore: 86,
+      isCompleted: false,
+      isRecommended: true,
+      topics: ['Physics', 'Chemistry', 'Mathematics'],
+      lastAttempted: null
     }
   ];
 
