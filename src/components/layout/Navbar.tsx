@@ -33,10 +33,36 @@ const Navbar = () => {
       href: '/study-materials',
       icon: BookOpen,
       children: [
-        { title: 'Physics', href: '/study-materials/physics' },
-        { title: 'Chemistry', href: '/study-materials/chemistry' },
-        { title: 'Mathematics', href: '/study-materials/mathematics' },
-        { title: 'Video Lectures', href: '/study-materials/videos' },
+        { 
+          title: 'Physics', 
+          href: '/study-materials/physics',
+          description: 'Mechanics, Electromagnetism, Thermodynamics, Optics, Modern Physics'
+        },
+        { 
+          title: 'Chemistry', 
+          href: '/study-materials/chemistry',
+          description: 'Organic, Inorganic, Physical Chemistry, Chemical Bonding'
+        },
+        { 
+          title: 'Mathematics', 
+          href: '/study-materials/mathematics',
+          description: 'Calculus, Algebra, Trigonometry, Coordinate Geometry, Vectors'
+        },
+        { 
+          title: 'Video Lectures', 
+          href: '/study-materials/videos',
+          description: 'Interactive video lessons for all subjects'
+        },
+        { 
+          title: 'Formula Sheets', 
+          href: '/study-materials/formulas',
+          description: 'Quick reference formulas for Physics, Chemistry & Maths'
+        },
+        { 
+          title: 'Sample Papers', 
+          href: '/study-materials/papers',
+          description: 'Previous year papers and practice sets'
+        },
       ],
     },
     {
@@ -104,7 +130,7 @@ const Navbar = () => {
                         <item.icon className="w-4 h-4 mr-2" />
                         {item.title}
                       </NavigationMenuTrigger>
-                      <NavigationMenuContent>
+                       <NavigationMenuContent>
                         <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
                           {item.children.map((child) => (
                             <li key={child.href}>
@@ -114,6 +140,11 @@ const Navbar = () => {
                                   className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
                                 >
                                   <div className="text-sm font-medium leading-none">{child.title}</div>
+                                  {child.description && (
+                                    <p className="line-clamp-2 text-xs leading-snug text-muted-foreground">
+                                      {child.description}
+                                    </p>
+                                  )}
                                 </Link>
                               </NavigationMenuLink>
                             </li>
