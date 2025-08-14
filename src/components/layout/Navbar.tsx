@@ -70,10 +70,46 @@ const Navbar = () => {
       href: '/mock-tests',
       icon: Brain,
       children: [
-        { title: 'JEE Main', href: '/mock-tests/jee-main' },
-        { title: 'JEE Advanced', href: '/mock-tests/jee-advanced' },
-        { title: 'CET', href: '/mock-tests/cet' },
-        { title: 'BITSAT', href: '/mock-tests/bitsat' },
+        { 
+          title: 'JEE Main', 
+          href: '/mock-tests/jee-main',
+          description: 'Full-length JEE Main practice tests with detailed analysis'
+        },
+        { 
+          title: 'JEE Advanced', 
+          href: '/mock-tests/jee-advanced',
+          description: 'JEE Advanced pattern tests for IIT preparation'
+        },
+        { 
+          title: 'MH CET', 
+          href: '/mock-tests/cet',
+          description: 'Maharashtra CET mock tests for engineering & medical'
+        },
+        { 
+          title: 'BITSAT', 
+          href: '/mock-tests/bitsat',
+          description: 'BITS Admission Test practice papers'
+        },
+        { 
+          title: 'WBJEE', 
+          href: '/mock-tests/wbjee',
+          description: 'West Bengal Joint Entrance Exam mock tests'
+        },
+        { 
+          title: 'KCET', 
+          href: '/mock-tests/kcet',
+          description: 'Karnataka Common Entrance Test practice'
+        },
+        { 
+          title: 'COMEDK', 
+          href: '/mock-tests/comedk',
+          description: 'COMEDK UGET mock tests for engineering'
+        },
+        { 
+          title: 'VITEEE', 
+          href: '/mock-tests/viteee',
+          description: 'VIT Engineering Entrance Exam tests'
+        },
       ],
     },
     {
