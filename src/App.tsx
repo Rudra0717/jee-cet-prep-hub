@@ -23,6 +23,9 @@ import Counseling from './pages/Counseling';
 import Login from './pages/auth/Login';
 import Register from './pages/auth/Register';
 import Dashboard from './pages/Dashboard';
+import PhysicsStudyMaterials from './pages/PhysicsStudyMaterials';
+import ChemistryStudyMaterials from './pages/ChemistryStudyMaterials';
+import MathematicsStudyMaterials from './pages/MathematicsStudyMaterials';
 
 // Create a client
 const queryClient = new QueryClient();
@@ -39,6 +42,9 @@ function App() {
                 <Routes>
                   <Route path="/" element={<HomePage />} />
                   <Route path="/study-materials" element={<StudyMaterials />} />
+                  <Route path="/study-materials/physics" element={<PhysicsStudyMaterials />} />
+                  <Route path="/study-materials/chemistry" element={<ChemistryStudyMaterials />} />
+                  <Route path="/study-materials/mathematics" element={<MathematicsStudyMaterials />} />
                   <Route path="/mock-tests" element={<MockTests />} />
                   <Route path="/question-bank" element={<QuestionBank />} />
                   <Route path="/progress-tracker" element={<ProgressTracker />} />
