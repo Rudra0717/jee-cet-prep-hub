@@ -83,42 +83,62 @@ const Navbar = () => {
         { 
           title: 'JEE Main', 
           href: '/mock-tests/jee-main',
-          description: 'Full-length JEE Main practice tests with detailed analysis'
+          description: 'Full-length JEE Main practice tests with detailed analysis and performance insights'
         },
         { 
           title: 'JEE Advanced', 
           href: '/mock-tests/jee-advanced',
-          description: 'JEE Advanced pattern tests for IIT preparation'
+          description: 'JEE Advanced pattern tests for IIT preparation with comprehensive solutions'
         },
         { 
           title: 'MH CET', 
           href: '/mock-tests/cet',
-          description: 'Maharashtra CET mock tests for engineering & medical'
+          description: 'Maharashtra CET mock tests for engineering & medical with state-specific patterns'
         },
         { 
           title: 'BITSAT', 
           href: '/mock-tests/bitsat',
-          description: 'BITS Admission Test practice papers'
+          description: 'BITS Admission Test practice papers with adaptive testing simulation'
         },
         { 
           title: 'WBJEE', 
           href: '/mock-tests/wbjee',
-          description: 'West Bengal Joint Entrance Exam mock tests'
+          description: 'West Bengal Joint Entrance Exam mock tests with detailed topic analysis'
         },
         { 
           title: 'KCET', 
           href: '/mock-tests/kcet',
-          description: 'Karnataka Common Entrance Test practice'
+          description: 'Karnataka Common Entrance Test practice with state board focus'
         },
         { 
           title: 'COMEDK', 
           href: '/mock-tests/comedk',
-          description: 'COMEDK UGET mock tests for engineering'
+          description: 'COMEDK UGET mock tests for engineering with difficulty progression'
         },
         { 
           title: 'VITEEE', 
           href: '/mock-tests/viteee',
-          description: 'VIT Engineering Entrance Exam tests'
+          description: 'VIT Engineering Entrance Exam tests with computer-based simulation'
+        },
+        { 
+          title: 'Subject-wise Tests', 
+          href: '/mock-tests/subject-wise',
+          description: 'Individual Physics, Chemistry & Mathematics practice tests'
+        },
+        { 
+          title: 'Previous Year Papers', 
+          href: '/mock-tests/previous-years',
+          description: 'Authentic question papers from last 10 years with solutions'
+        },
+        { 
+          title: 'Rapid Fire Tests', 
+          href: '/mock-tests/rapid-fire',
+          description: 'Quick 30-minute tests for concept revision and speed building'
+        },
+        { 
+          title: 'All India Test Series', 
+          href: '/mock-tests/ait-series',
+          description: 'Nationwide ranking tests with detailed performance analysis'
         },
       ],
     },
