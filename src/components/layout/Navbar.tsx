@@ -54,9 +54,19 @@ const Navbar = () => {
           description: 'Interactive video lessons for all subjects'
         },
         { 
-          title: 'Formula Sheets', 
-          href: '/study-materials/formulas',
-          description: 'Quick reference formulas for Physics, Chemistry & Maths'
+          title: 'Physics Formulas', 
+          href: '/study-materials/formulas/physics',
+          description: 'Mechanics, Waves, Thermodynamics, Electromagnetism formulas'
+        },
+        { 
+          title: 'Chemistry Formulas', 
+          href: '/study-materials/formulas/chemistry',
+          description: 'Organic reactions, Inorganic compounds, Physical chemistry'
+        },
+        { 
+          title: 'Mathematics Formulas', 
+          href: '/study-materials/formulas/mathematics',
+          description: 'Calculus, Trigonometry, Algebra, Coordinate geometry'
         },
         { 
           title: 'Sample Papers', 
