@@ -48,31 +48,6 @@ const Navbar = () => {
           href: '/study-materials/mathematics',
           description: 'Calculus, Algebra, Trigonometry, Coordinate Geometry, Vectors'
         },
-        { 
-          title: 'Video Lectures', 
-          href: '/study-materials/videos',
-          description: 'Interactive video lessons for all subjects'
-        },
-        { 
-          title: 'Physics Formulas', 
-          href: '/study-materials/formulas/physics',
-          description: 'Mechanics, Waves, Thermodynamics, Electromagnetism formulas'
-        },
-        { 
-          title: 'Chemistry Formulas', 
-          href: '/study-materials/formulas/chemistry',
-          description: 'Organic reactions, Inorganic compounds, Physical chemistry'
-        },
-        { 
-          title: 'Mathematics Formulas', 
-          href: '/study-materials/formulas/mathematics',
-          description: 'Calculus, Trigonometry, Algebra, Coordinate geometry'
-        },
-        { 
-          title: 'Sample Papers', 
-          href: '/study-materials/papers',
-          description: 'Previous year papers and practice sets'
-        },
       ],
     },
     {
@@ -134,8 +109,8 @@ const Navbar = () => {
                         <item.icon className="w-4 h-4 mr-2" />
                         {item.title}
                       </NavigationMenuTrigger>
-                       <NavigationMenuContent>
-                        <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
+                       <NavigationMenuContent className="z-50 bg-background border border-border shadow-lg">
+                        <ul className="grid w-[400px] gap-3 p-4 bg-background">
                           {item.children.map((child) => (
                             <li key={child.href}>
                               <NavigationMenuLink asChild>
