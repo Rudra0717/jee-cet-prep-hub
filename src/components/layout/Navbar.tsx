@@ -156,6 +156,16 @@ const Navbar = () => {
                         </ul>
                       </NavigationMenuContent>
                     </>
+                  ) : item.title === 'Mock Tests' ? (
+                    <Link
+                      to={item.href}
+                      className={`flex items-center px-4 py-2 text-sm font-medium transition-colors hover:text-blue-600 ${
+                        isActive(item.href) ? 'text-blue-600' : ''
+                      }`}
+                    >
+                      <item.icon className="w-4 h-4 mr-2" />
+                      {item.title}
+                    </Link>
                   ) : (
                     <NavigationMenuLink asChild>
                       <Link
