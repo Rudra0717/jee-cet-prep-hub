@@ -120,56 +120,6 @@ const Navbar = () => {
           href: '/mock-tests/viteee',
           description: 'VIT Engineering Entrance Exam tests with computer-based simulation'
         },
-        { 
-          title: 'Subject-wise Tests', 
-          href: '/mock-tests/subject-wise',
-          description: 'Individual Physics, Chemistry & Mathematics practice tests'
-        },
-        { 
-          title: 'Previous Year Papers', 
-          href: '/mock-tests/previous-years',
-          description: 'Authentic question papers from last 10 years with solutions'
-        },
-        { 
-          title: 'Rapid Fire Tests', 
-          href: '/mock-tests/rapid-fire',
-          description: 'Quick 30-minute tests for concept revision and speed building'
-        },
-        { 
-          title: 'All India Test Series', 
-          href: '/mock-tests/ait-series',
-          description: 'Nationwide ranking tests with detailed performance analysis'
-        },
-        { 
-          title: 'Chapter-wise Tests', 
-          href: '/mock-tests/chapter-wise',
-          description: 'Topic-specific tests for focused practice and concept mastery'
-        },
-        { 
-          title: 'Mixed Bag Tests', 
-          href: '/mock-tests/mixed-bag',
-          description: 'Multi-subject tests combining Physics, Chemistry & Mathematics'
-        },
-        { 
-          title: 'Speed Tests', 
-          href: '/mock-tests/speed-tests',
-          description: 'Time-bound tests to improve calculation speed and accuracy'
-        },
-        { 
-          title: 'Pattern-wise Tests', 
-          href: '/mock-tests/pattern-wise',
-          description: 'Tests designed for specific exam patterns and marking schemes'
-        },
-        { 
-          title: 'Difficulty Level Tests', 
-          href: '/mock-tests/difficulty-levels',
-          description: 'Easy, Medium, Hard level tests for progressive learning'
-        },
-        { 
-          title: 'Sectional Tests', 
-          href: '/mock-tests/sectional',
-          description: 'Individual section practice for better time management'
-        },
       ],
     },
     {
