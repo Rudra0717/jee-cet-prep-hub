@@ -79,48 +79,6 @@ const Navbar = () => {
       title: 'Mock Tests',
       href: '/mock-tests',
       icon: Brain,
-      children: [
-        { 
-          title: 'JEE Main', 
-          href: '/mock-tests/jee-main',
-          description: 'Full-length JEE Main practice tests with detailed analysis and performance insights'
-        },
-        { 
-          title: 'JEE Advanced', 
-          href: '/mock-tests/jee-advanced',
-          description: 'JEE Advanced pattern tests for IIT preparation with comprehensive solutions'
-        },
-        { 
-          title: 'MH CET', 
-          href: '/mock-tests/cet',
-          description: 'Maharashtra CET mock tests for engineering & medical with state-specific patterns'
-        },
-        { 
-          title: 'BITSAT', 
-          href: '/mock-tests/bitsat',
-          description: 'BITS Admission Test practice papers with adaptive testing simulation'
-        },
-        { 
-          title: 'WBJEE', 
-          href: '/mock-tests/wbjee',
-          description: 'West Bengal Joint Entrance Exam mock tests with detailed topic analysis'
-        },
-        { 
-          title: 'KCET', 
-          href: '/mock-tests/kcet',
-          description: 'Karnataka Common Entrance Test practice with state board focus'
-        },
-        { 
-          title: 'COMEDK', 
-          href: '/mock-tests/comedk',
-          description: 'COMEDK UGET mock tests for engineering with difficulty progression'
-        },
-        { 
-          title: 'VITEEE', 
-          href: '/mock-tests/viteee',
-          description: 'VIT Engineering Entrance Exam tests with computer-based simulation'
-        },
-      ],
     },
     {
       title: 'Question Bank',
